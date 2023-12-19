@@ -6,10 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <li><a href="./1/index.php">задание 1</a></li>
-        <li><a href="./2-1/index.php">задание 2-1</a></li>
-        <li><a href="">задание 2-2</a></li>
-    </ul>
+    <?php
+        if ($_POST['age']>0 && $_POST['age']<120)
+            {
+                echo $_POST['age'];
+            } else {
+                echo 'ERROR';
+            }
+?>  
 </body>
 </html>
