@@ -6,10 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <li><a href="./1/index.php">задание 1</a></li>
-        <li><a href="./2-1/index.php">задание 2-1</a></li>
-        <li><a href="">задание 2-2</a></li>
-    </ul>
+    <form action="next.php" method="post">
+        <p>Ваш возраст <input type="text" name="age" required></p>
+        <input type="submit" value="send" name="send">
+    </form>
 </body>
 </html>
