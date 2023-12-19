@@ -7,7 +7,7 @@
 </head>
 <body>
     <ul>
-        <li><a href="">задание 1</a></li>
+        <li><a href="./1/index.php">задание 1</a></li>
         <li><a href="">задание 2-1</a></li>
         <li><a href="">задание 2-2</a></li>
     </ul>
